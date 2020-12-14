@@ -59,11 +59,49 @@ public class Main
                     break;
                 }
             }
-            
+
             students_counter++;
         }
         while (students_counter <= 10);
+        
+        // aaaa
+        // while () {
+        // cccc
+        // ...
+        // }
+        
+        // do  {
+        // ccccc
+        // }
+        // while(..)
+        
+        // do {
+        // ....
+        // ... if {
+        //    break }
+        // }
+        // while (true)
+        
+        // while (true) {
+        // ....
+        // }
 
+        // while true
+        int x = 0;
+        while (true) {
+            x++;
+            System.out.println(x);
+            if (x == 10) {
+                break;
+            }
+        }
+        
+        // targil:
+        // 1. print numbers from 200 to 0 jump 5 : 200, 195, 190 ... 0
+        // 2. input number until user inputs 77
+        // 3. input 3 numbers until a + b > c
+        // 4. *etgar: change the student targil (above) to while(true) loop 
+        
         System.out.println("Goodbye");
     }
 }
