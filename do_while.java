@@ -38,9 +38,34 @@ public class Main
 
 
         // 1. print numbers from 1 to 100 using do-while
+        int index = 1;
+         do {
+            System.out.println(index);
+            index++;
+        }
+        while (index <= 100);
+        
         // 2. input 3 numbers from user: a,b,c until a+b==c using do-while
+        int a,b,c;
+        System.out.println("Please enter 3 numbers:");
+        do {
+            a = s.nextInt();// 1
+            b = s.nextInt();// 2
+            c = s.nextInt();// 3
+        }
+        while (a + b == c);
+        
         // 3. input 3 numbers from user until all of them are different
-
+        int x,y,z;
+        System.out.println("Please enter 3 numbers:");
+        do {
+            x = s.nextInt();// 1
+            y = s.nextInt();// 2
+            z = s.nextInt();// 3
+        }
+        while (x == y || x == z || y == z);
+        
+        
         System.out.println("Goodbye");
     }
 }
