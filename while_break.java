@@ -31,6 +31,16 @@ public class Main
         while (counter <= 5);
         System.out.println(String.format("You had %d", counter));
         
+        //-- targil:
+        // class has 10 students
+        // write program which inputs 10 grades
+        // if negative grade was inserted, or grade > 100 inserted 
+        //           then break
+        // *etgar: if 5 students got 100 then break because 
+        //          this is super class
+        // **etgar: calculate the average
+        
+
         System.out.println("Goodbye");
     }
 }
