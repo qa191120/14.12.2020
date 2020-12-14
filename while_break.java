@@ -63,25 +63,25 @@ public class Main
             students_counter++;
         }
         while (students_counter <= 10);
-        
+
         // aaaa
         // while () {
         // cccc
         // ...
         // }
-        
+
         // do  {
         // ccccc
         // }
         // while(..)
-        
+
         // do {
         // ....
         // ... if {
         //    break }
         // }
         // while (true)
-        
+
         // while (true) {
         // ....
         // }
@@ -95,13 +95,48 @@ public class Main
                 break;
             }
         }
-        
+
         // targil:
         // 1. print numbers from 200 to 0 jump 5 : 200, 195, 190 ... 0
+        int counter_200_5 = 200;
+        while (true) {
+            System.out.println(counter_200_5);
+            counter_200_5 -= 5;
+            if (counter_200_5 < 0) {
+                break;
+            }
+        }
         // 2. input number until user inputs 77
+        int number_77;
+        while (true) {
+            System.out.println("Guess a number (hint: 77)");
+            number_77 = s.nextInt();
+            if (number_77 == 77) {
+                System.out.println("Correct!");
+                break;
+            }
+            System.out.println("Wrong... guess again");
+        }
         // 3. input 3 numbers until a + b > c
-        // 4. *etgar: change the student targil (above) to while(true) loop 
-        
+        int a3, b3 , c3;
+        while (true) {
+            System.out.println("Enter 3 numbers");
+            a3 = s.nextInt();
+            b3 = s.nextInt();
+            c3 = s.nextInt();
+            if (a3 + b3 > c3) {
+                break;
+            }
+        }
+        // 4. *etgar: change the student targil (above) to while(true) loop
+        //       do {
+        //              ...
+        //             if (students_counter > 10) {
+        //                break;
+        //            }
+        //        }
+        //        while (true);
+
         System.out.println("Goodbye");
     }
 }
